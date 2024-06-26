@@ -1,0 +1,111 @@
+.darkTheme .embed-buttons-wrapper>div:before,
+.lightTheme .embed-buttons-wrapper>div:before {
+    background: linear-gradient(0deg, rgb(240, 241, 242) 33%, rgba(0, 0, 0, 0) 100%);
+}
+
+div.embed-container {
+    background-color: #3C4259; /* Zamena za var(--black0) */
+}
+
+div.embed-screen {
+    --black9: #5B6898; /* Zamena za #aa0093 */
+    --black6: #000000;
+    --black4: #000000;
+    --black5: rgba(91, 104, 152, 0.56); /* Zamena za #aa00928f */
+    --black3: #A2AAB4;
+    --black2: #5B6898; /* Zamena za #fa00ff */
+    --black1: #5B6898; /* Zamena za #fa00ff */
+    --black0: #3C4259; /* Zamena za #f0afff */
+    --white: #F0F1F2; /* Zamena za #fbefff */
+    --black: #121417;
+    --purple6: #5B6898; /* Zamena za #b83ebf */
+}
+
+.embed-variant-header.active,
+.embed-gateway-container .gateway-list-item {
+    border-width: 2px;
+}
+
+.embed-container,
+.embed-header,
+.embed-counter,
+.sellix-product-rewards,
+.embed-volume,
+.embed-coupon-input,
+.embed-coupon-applied,
+input.sellix-input,
+.gateway-list-item,
+.embed-variant-header,
+.embed-addons {
+    background-color: #3C4259 !important; /* Zamena za var(--black0) */
+}
+
+.sellix-input-with-currency-wrapper input,
+.gateway-list-item-blockchain.bg-white {
+    background-color: #3C4259 !important; /* Zamena za var(--black0) */
+}
+
+button.sellix-button {
+    background-color: #5B6898 !important; /* Zamena za var(--purple6) */
+}
+
+input.sellix-input {
+    background-color: #F0F1F2 !important; /* Zamena za var(--white) */
+}
+
+input.sellix-input::placeholder {
+    color: #3C4259; /* Zamena za var(--black0) */
+}
+
+.embed-stock {
+    color: #5B6898; /* Zamena za var(--purple6) */
+}
+
+.embed-footer-item:hover {
+    background: rgba(91, 104, 152, 0.17) !important; /* Zamena za #fa00ff2b */
+}
+
+.sellix-product-rewards-list-row-title {
+    color: rgba(0, 0, 0, 0.5); /* Ne menjano */
+}
+
+.gateway-title,
+.gateway-list-item-title>div:first-child {
+    color: #5B6898; /* Zamena za var(--black9) */
+}
+
+.gateway-subtitle,
+.gateway-list-item-title>div:last-child {
+    color: rgba(91, 104, 152, 0.56); /* Zamena za var(--black5) */
+}
+
+.embed-gateway-container .gateway-list-item {
+    border-color: rgba(91, 104, 152, 0.56) !important; /* Zamena za var(--black5) */
+}
+
+.embed-gateway-container .gateway-list-item.active {
+    border-color: #5B6898 !important; /* Zamena za var(--black9) */
+}
+
+.sellix-button {
+    color: #F0F1F2; /* Zamena za var(--white) */
+}
+
+.gateway-list-item.active {
+    box-shadow: transparent 0 0 0 0, transparent 0 0 0 0, rgba(18, 20, 23, 0.06) 0 1px 2px 0;
+}
+
+.item-first>g rect,
+.item-second>g rect {
+    fill: #F0F1F2; /* Zamena za #efadfe */
+}
+
+.item-first>mask+g rect,
+.item-second>mask+g rect {
+    fill: #fff;
+}
+
+.item-first>mask+g path,
+.item-second>mask+g path {
+    fill: #F0F1F2; /* Zamena za #efadfe */
+}
